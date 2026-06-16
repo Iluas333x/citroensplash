@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">إعدادات شاشة الترحيب</string>
+    <string name="settings_title">إعدادات شاشة الترحيب</string>
+    <string name="enable_label">إظهار شاشة الترحيب عند بدء التشغيل</string>
+    <string name="duration_label">مدة العرض: %1$d ثانية</string>
+    <string name="save_label">حفظ</string>
+    <string name="splash_logo_description">شعار شاشة الترحيب</string>
+</resources>

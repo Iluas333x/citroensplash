@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Splash Settings</string>
+    <string name="settings_title">Welcome Screen Settings</string>
+    <string name="enable_label">Show welcome screen at startup</string>
+    <string name="duration_label">Display duration: %1$d seconds</string>
+    <string name="save_label">Save</string>
+    <string name="splash_logo_description">Welcome screen logo</string>
+</resources>

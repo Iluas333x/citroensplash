@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    PLACEHOLDER ONLY.
+
+    This is a plain, generic ring graphic with no relation to any brand or
+    trademark. It exists purely so the project builds and runs out of the
+    box, showing you exactly where and how large the real logo will appear.
+
+    To use your own artwork:
+      1. Obtain a high-resolution logo file you have the rights to use
+         (e.g. PNG with a transparent background, at least 1024x1024px).
+      2. Delete this file.
+      3. Place your file at:
+           app/src/main/res/drawable-nodpi/splash_logo.png
+         (drawable-nodpi keeps Android from rescaling your high-res image
+         based on screen density, which preserves full quality.)
+      4. Rebuild. No code changes are required — activity_splash.xml
+         already references @drawable/splash_logo.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="220dp"
+    android:height="220dp"
+    android:viewportWidth="220"
+    android:viewportHeight="220">
+
+    <path
+        android:pathData="M110,20 A90,90 0 1,1 109.9,20 Z"
+        android:fillColor="#00000000"
+        android:strokeColor="#33FFFFFF"
+        android:strokeWidth="3" />
+
+    <path
+        android:pathData="M70,140 L70,90 L150,90 L150,140"
+        android:fillColor="#00000000"
+        android:strokeColor="#88FFFFFF"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+</vector>

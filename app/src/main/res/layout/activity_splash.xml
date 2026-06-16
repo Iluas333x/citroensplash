@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splash_background">
+
+    <!--
+        Replace @drawable/splash_logo with your own high-resolution artwork.
+        See res/drawable-nodpi/README in the project notes for the recommended
+        file format/size. This placeholder is intentionally generic.
+    -->
+    <ImageView
+        android:id="@+id/splashLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:src="@drawable/splash_logo"
+        android:contentDescription="@string/splash_logo_description" />
+
+</FrameLayout>
